@@ -1,158 +1,173 @@
-# Tech Company Funding US | Power BI Dashboard
+# Spotify User Demographic Analysis | Looker Studio
 
 ## Project Overview
 
-This project presents an interactive Power BI dashboard designed to analyze funding activities of technology companies in the United States.
+This project presents an interactive dashboard developed using Google Looker Studio to analyze Spotify user demographics and listening behavior.
 
-The dashboard provides an overview of total technology companies, funding amounts, funding categories, company funding distribution, and monthly funding trends.
+The dashboard provides insights into user distribution by gender, country, age, device, and subscription type. It also includes listening-related metrics such as listening time, skip rate, offline listeners, and weekly ad listening.
 
-This project was developed as a Data Analyst portfolio project to demonstrate data visualization, business analysis, and dashboard development skills using Microsoft Power BI.
+This project was created as a Data Analyst portfolio project to demonstrate skills in data visualization, exploratory data analysis, and dashboard development.
 
-**Note:** This project uses dummy data for educational and portfolio purposes. The data does not represent actual company funding information.
+**Note:** This project uses data for analytical and portfolio purposes. The dataset source and whether the data is real, public, or simulated should be specified in the project documentation.
 
 ## Dashboard Preview
 
-![Tech Company Funding US Dashboard](Images/Tech%20Funding%20Project.png)
+![Spotify User Demographic Analysis Dashboard](Images/spotify_demographic_dashboard.png)
 
 ## Business Problem
 
-Technology companies receive funding from different investors and operate across various business categories.
+Understanding user demographics and listening behavior is important for digital music streaming platforms.
 
-Understanding funding distribution can help stakeholders explore:
+A structured dashboard can help explore user characteristics, platform usage, and differences in listening behavior across demographic and subscription segments.
 
-- Which technology categories receive the largest funding amounts?
-- Which companies have the highest funding amounts?
-- How does funding change over time?
-- What is the overall funding distribution across technology categories?
-
-This dashboard aims to present funding information in a clear and visual format to support exploratory analysis.
+This project aims to provide a visual overview of Spotify user data to support exploratory analysis and data-driven decision-making.
 
 ## Project Objectives
 
-- Analyze the overall funding landscape of US technology companies.
-- Compare funding amounts across different technology categories.
-- Identify companies with the highest funding amounts.
-- Explore monthly funding trends.
-- Present key metrics through an interactive dashboard.
+- Analyze user distribution by gender and country.
+- Explore the age distribution of Spotify users.
+- Compare user counts across different devices.
+- Analyze skip rate by subscription type.
+- Monitor listening time and offline listener metrics.
+- Present demographic and listening behavior through an interactive dashboard.
 
 ## Dataset
 
-The dataset contains simulated information related to technology companies and their funding activities.
+The dataset contains information related to Spotify users and their listening behavior.
 
-The dashboard includes the following information:
+The dashboard includes fields and metrics such as:
 
-- Company
-- Category
-- Funding Amount (USD)
-- Month
+- Gender
+- Country
+- Age
+- Date
+- Device
+- Subscription Type
+- Listening Time
+- Skip Rate
+- Offline Listening
+- Weekly Ad Listening
 
-The dataset is dummy data and does not represent actual company financial information.
+The exact dataset source, data collection method, and data characteristics should be documented based on the original dataset used in this project.
 
 ## Tools & Technologies
 
-- Microsoft Power BI
-- Power Query
-- DAX
+- Google Looker Studio
 - Data Visualization
 - Exploratory Data Analysis
-
-## Key Performance Indicators (KPIs)
-
-The dashboard includes four main KPI cards:
-
-| KPI | Value |
-|---|---:|
-| Total Tech Company | 1,828K |
-| Category Calculation | 107 |
-| Tech Company Funding Amount | 118bn USD |
-| Average Tech Company Funding | 57.99M USD |
-
-These KPIs provide a high-level overview of the dataset and its funding metrics.
+- Data Reporting
 
 ## Dashboard Features
 
-### 1. Funding Amount by Category
+### 1. Interactive Filters
 
-A doughnut chart displays the distribution of funding amounts across technology categories, including:
+The dashboard includes interactive filters for:
 
-- Audio Tech
-- Nutraceutical
-- Data
-- Home Renovation
-- Recycling
-- Charity
-- Employee Training
-- Marine Technology
-- Venture Capital
-- Insurance
+- Gender
+- Country
+- Date Range
 
-This visualization helps compare the relative contribution of each category to total funding.
+These filters allow users to explore demographic and listening metrics across different user segments and time periods.
 
-### 2. Funding Amount by Company and Category
+### 2. Geographic User Distribution
 
-A horizontal bar chart compares funding amounts across companies.
+A geographic map visualizes the distribution of Spotify users across countries.
 
-The chart highlights companies with higher funding amounts, including SpaceX, Databricks, Articulate, Relativity Space, Robinhood, and other companies shown in the dashboard.
+This visualization helps identify countries with relatively higher user counts in the dataset.
 
-This visualization helps identify companies with relatively high funding amounts in the dataset.
+### 3. Gender Distribution
 
-### 3. Monthly Funding Analysis
+A doughnut chart displays the proportion of users by gender.
 
-A line chart presents monthly funding amounts and average funding amounts.
+The chart includes:
 
-The chart allows users to explore changes in funding across the months from January to November.
+- Male
+- Female
+- Other
 
-It includes:
+This visualization provides an overview of the gender composition of the users included in the dataset.
 
-- Sum of Funding Amount (USD)
-- Average of Funding Amount (USD)
+### 4. Listening Metrics
 
-This visualization helps identify monthly fluctuations and changes in funding activity.
+The dashboard displays several listening-related metrics:
 
-## Key Insights
+- Listening Time
+- Average Skip Rate
+- Offline Listeners
+- Weekly Ad Listening
+
+These metrics provide an overview of user listening activity and engagement-related behavior.
+
+### 5. User Distribution by Device
+
+A column chart compares the number of users across different devices:
+
+- Mobile
+- Web
+- Desktop
+
+This visualization helps explore which devices are most commonly used by the users in the dataset.
+
+### 6. Skip Rate by Subscription Type
+
+A horizontal bar chart compares skip rate across subscription types:
+
+- Premium
+- Free
+- Student
+- Family
+
+This chart allows users to explore differences in skip behavior across subscription segments.
+
+### 7. Age Distribution Table
+
+The dashboard includes a table showing user ages and record counts.
+
+This table provides a detailed view of age-related user distribution within the dataset.
+
+## Key Observations
 
 Based on the dashboard visualization:
 
-- The total funding amount displayed is approximately 118bn USD.
-- SpaceX appears as the company with the highest funding amount among the companies shown in the bar chart.
-- Audio Tech appears as one of the largest funding categories in the category distribution.
-- Monthly funding shows fluctuations throughout the year.
-- October shows a noticeable decrease in both total and average funding compared with the preceding months.
-- November shows an increase in average funding, while total funding remains below the earlier peak shown in August.
+- The gender distribution appears relatively balanced across Male, Female, and Other.
+- The geographic map shows user records across multiple countries.
+- Mobile, Web, and Desktop are represented in the device usage chart.
+- Premium has the highest displayed skip rate among the subscription types shown.
+- The dashboard provides a combination of demographic information and listening-related metrics.
 
-These observations are based on the displayed dashboard and should be interpreted as findings from simulated data.
+These observations are based on the visualized data and should be interpreted according to the dataset's source and definitions.
 
 ## Recommendations
 
-Based on the dashboard analysis, the following exploratory recommendations can be considered:
+Based on the dashboard, further analysis could explore:
 
-- Investigate the categories contributing the largest funding amounts.
-- Compare funding distribution across companies to identify major contributors.
-- Review monthly fluctuations to understand periods of higher and lower funding activity.
-- Further analyze the relationship between total funding and average funding.
-- Validate the dataset and metric definitions before using the results for real business decisions.
+- Differences in listening behavior across demographic segments.
+- User distribution across countries and devices.
+- Skip rate differences between subscription types.
+- Relationships between listening time and subscription type.
+- Changes in listening behavior over time.
+
+Further analysis and validation would be required before making business decisions based on these observations.
 
 ## Limitations
 
-- The dataset uses dummy data.
-- The dashboard does not represent actual US technology company funding.
-- The analysis is limited to the available fields and visualizations.
-- Funding trends and company rankings are illustrative.
-- The dashboard does not establish the causes of funding fluctuations.
-
-## Conclusion
-
-The Tech Company Funding US dashboard demonstrates how Power BI can be used to transform structured data into an interactive business intelligence report.
-
-The project highlights the use of KPI cards, doughnut charts, horizontal bar charts, and line charts to explore funding distribution and monthly trends.
-
-This portfolio project showcases fundamental Data Analyst skills in data visualization, exploratory analysis, and business-oriented reporting.
+- The analysis is limited to the fields available in the dataset.
+- The dashboard shows aggregated metrics and does not explain the causes of user behavior.
+- The interpretation of listening time, skip rate, and record counts depends on the original dataset definitions.
+- The dashboard does not establish causal relationships between demographics and listening behavior.
 
 ## Project Files
 
-- Power BI dashboard: `Dashboard/tech_company_funding_us.pbix`
-- Dashboard overview: `Images/Tech Funding Project.png`
+- Looker Studio dashboard: [Insert Dashboard Link]
+- Dashboard screenshot: `Images/spotify_demographic_dashboard.png`
+- Project documentation: `README.md`
+
+## Conclusion
+
+This project demonstrates how Google Looker Studio can be used to transform user data into an interactive demographic and listening behavior dashboard.
+
+The project highlights the use of geographic maps, KPI metrics, demographic charts, device comparisons, and subscription-based analysis to support exploratory data analysis.
 
 ## Disclaimer
 
-This project was created for educational and portfolio purposes using dummy data. All displayed funding amounts, company metrics, and analytical observations are illustrative and should not be interpreted as actual financial information.
+This project is intended for educational and portfolio purposes. The interpretation of the results depends on the dataset source, data quality, and metric definitions.
