@@ -152,7 +152,7 @@ This portfolio project showcases fundamental Data Analyst skills in data visuali
 
 - Power BI dashboard: `Dashboard/tech_company_funding_us.pbix`
 - Dashboard overview: `Images/Tech Funding Project.png`
-
+- Dataset: `https://www.kaggle.com/datasets/shivamb/tech-company-fundings-2020-onwards`
 ## Disclaimer
 
 This project was created for educational and portfolio purposes using dummy data. All displayed funding amounts, company metrics, and analytical observations are illustrative and should not be interpreted as actual financial information.
